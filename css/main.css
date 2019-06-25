@@ -1,6 +1,12 @@
 .page {
   margin: 0;
 }
+
+.container {
+  margin: 0 15px;
+  background-color: cyan;
+}
+
 .page__header {
   background-color: green;
   color: white;
@@ -12,6 +18,9 @@
   height: 421px;
   background: url(https://images.unsplash.com/photo-1477036724282-913d4079d367?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=757&q=80) center bottom no-repeat;
   background-size: cover;
+}
+.hero .container {
+  height: 100%;
   display: flex;
   align-items: flex-end;
 }
@@ -21,7 +30,6 @@
   background-color: white;
   transform: translateY(50%);
   flex-grow: 1;
-  margin: 0 15px;
 }
 .team,
 .members {
